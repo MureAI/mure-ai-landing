@@ -36,7 +36,7 @@ import {
 
 export default function LandingPage() {
   return (
-    <div className="min-h-screen bg-white dark:bg-black transition-colors relative overflow-hidden z-[11]">
+    <div className="min-h-screen bg-[hsl(210,20%,80%)] dark:bg-black transition-colors relative overflow-hidden z-[11]">
       {/* Technical Grid Background */}
       <div className="fixed inset-0 grid-pattern opacity-40 z-[10] pointer-events-none"></div>
       <div className="fixed inset-0 noise z-[10] pointer-events-none"></div>

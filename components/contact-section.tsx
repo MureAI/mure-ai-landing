@@ -18,18 +18,18 @@ export default function ContactSection() {
               </div>
 
               <h2 className="text-4xl sm:text-5xl font-display font-bold tracking-tight mb-8 leading-tight">
-                <span className="text-gradient">Deploy AI</span>
+                <span className="bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">Deploy AI</span>
                 <br />
-                <span className="text-black dark:text-white">In Production</span>
+                <span className="text-black dark:text-white">In Your Business</span>
               </h2>
 
               <p className="text-lg text-gray-600 dark:text-gray-400 mb-12 leading-relaxed">
-                Schedule a technical consultation to discuss your automation requirements and deployment strategy.
+                Schedule a free technical consultation to discuss your automation requirements and deployment strategy.
               </p>
 
               <div className="space-y-6">
                 {[
-                  { icon: Mail, title: "Email", detail: "hello@mure-ai.com" },
+                  { icon: Mail, title: "Email", detail: "contact@mureai.com" },
                   { icon: Phone, title: "Phone", detail: "+1 (555) 123-4567" },
                   { icon: MapPin, title: "Office", detail: "123 Innovation Drive\nSan Francisco, CA 94105" },
                 ].map((contact, index) => (
@@ -57,7 +57,7 @@ export default function ContactSection() {
             <Card className="border border-gray-200 dark:border-gray-800 bg-white dark:bg-black shadow-xl">
               <CardHeader className="pb-6">
                 <CardTitle className="text-2xl font-display font-bold text-black dark:text-white">
-                  Request Access
+                  Contact Us
                 </CardTitle>
                 <CardDescription className="text-gray-600 dark:text-gray-400">
                   Get started with enterprise AI automation in 24 hours.

@@ -13,14 +13,14 @@ const teamMembers = [
   {
     name: "Duc Lee",
     role: "Chief Technology Officer",
-    bio: "Ex-Microsoft Principal Engineer. Expert in scalable AI systems.",
+    bio: "Fullstack developer, AWS engineer. AI & ML enthusiast.",
     image: "/duc.webp",
     linkedin: "https://www.linkedin.com/in/ducleminh2611/",
   },
   {
     name: "Yunwei Cui",
     role: "Branding and Sales",
-    bio: "PhD Computer Science MIT. Published NLP researcher.",
+    bio: "Fullstack developer & artist with 200+ completed creative projects.",
     image: "/yun.webp",
     linkedin: "https://www.linkedin.com/in/yunwei-cui-86174a188/",
   },

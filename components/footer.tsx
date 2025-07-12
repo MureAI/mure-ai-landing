@@ -1,5 +1,6 @@
 import { Terminal, Linkedin, Twitter } from "lucide-react"
 import { FadeIn } from "./ui/animation-wrappers"
+import Link from 'next/link';
 
 const footerSections = [
   {
@@ -23,10 +24,10 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8 mb-12">
             <div>
-              <div className="flex items-center space-x-3 mb-6">
-                <img src="/logo.svg" alt="Mure AI Logo" className="w-8 h-8" />
+              <Link href="/" className="flex items-center space-x-3 mb-6 group" aria-label="Mure AI Home">
+                <img src="/logo.svg" alt="Mure AI Logo" className="w-8 h-8 transition-transform group-hover:scale-105" />
                 <span className="text-xl font-display font-bold tracking-tight">Mure AI</span>
-              </div>
+              </Link>
               <p className="text-gray-600 dark:text-gray-400 text-sm mb-6 leading-relaxed">
                 Enterprise AI automation platform for modern businesses.
               </p>

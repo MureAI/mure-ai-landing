@@ -4,6 +4,8 @@ import { Button } from "@/components/ui/button"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { MobileMenu } from "@/components/mobile-menu"
 import { Terminal } from "lucide-react"
+import React from 'react';
+import Link from 'next/link';
 
 const navItems = [
   { name: "About", href: "#about" },
@@ -27,12 +29,12 @@ export default function Navbar() {
     <nav className="fixed top-0 w-full bg-white/80 dark:bg-black/80 backdrop-blur-xl border-b border-gray-200/20 dark:border-gray-800/20 z-50">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="flex items-center space-x-3">
+          <Link href="/" className="flex items-center space-x-3 group" aria-label="Mure AI Home">
             <div className="relative">
-              <img src="/logo.svg" alt="Mure AI Logo" className="w-8 h-8" />
+              <img src="/logo.svg" alt="Mure AI Logo" className="w-8 h-8 transition-transform group-hover:scale-105" />
             </div>
             <span className="text-xl font-display font-bold tracking-tight">Mure AI</span>
-          </div>
+          </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">

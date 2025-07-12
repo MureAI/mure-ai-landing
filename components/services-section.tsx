@@ -4,43 +4,79 @@ import { FadeIn, StaggerContainer, SlideIn, ScaleIn } from "./ui/animation-wrapp
 
 const services = [
   {
-    icon: Bot,
-    title: "Intelligent Support",
-    description:
-      "24/7 customer service automation with natural language processing and sentiment analysis.",
-    features: ["Multi-channel integration", "Real-time escalation", "Performance analytics"],
-  },
-  {
     icon: Cog,
-    title: "Process Automation",
-    description: "Workflow optimization and task automation with intelligent decision-making capabilities.",
-    features: ["Document processing", "Workflow orchestration", "Error handling"],
+    title: "Workflow Automation",
+    description:
+      "Streamline operations with intelligent automations that plug right into your current tools.",
+    features: [
+      "AI process discovery & optimization",
+      "100+ app integrations (e.g., Salesforce, Google)",
+      "Smart rules & scheduling workflows",
+    ],
+    useCase: "Auto-schedule calls, send welcome emails, and assign tasks when a hot lead hits your CRM."
   },
   {
-    icon: Zap,
-    title: "Predictive Analytics",
-    description: "Advanced forecasting and trend analysis powered by machine learning algorithms.",
-    features: ["Demand forecasting", "Risk assessment", "Performance prediction"],
+    icon: Bot,
+    title: "AI Voice Support",
+    description:
+      "AI agents that sound human, work 24/7, and handle calls with nuance and accuracy.",
+    features: [
+      "Natural voice in multiple languages",
+      "24/7 inbound & outbound calls",
+      "Live escalation to human agents",
+    ],
+    useCase: "Handles bookings and support calls, while routing complex cases to your team instantly."
   },
   {
     icon: Users,
-    title: "Sales Intelligence",
-    description: "Lead qualification and marketing automation with personalized customer engagement.",
-    features: ["Lead scoring", "Campaign optimization", "Behavioral analysis"],
-  },
-  {
-    icon: Mail,
-    title: "Document AI",
-    description: "Intelligent document processing with OCR, classification, and data extraction.",
-    features: ["OCR processing", "Content classification", "Data validation"],
+    title: "Social Media Automation",
+    description:
+      "Manage high-volume comments, posts, and crises with AI that knows your brand voice.",
+    features: [
+      "Real-time comment replies",
+      "Brand sentiment monitoring",
+      "Auto content scheduling",
+    ],
+    useCase: "Responds to mentions, posts content on time, and flags risky messages to you."
   },
   {
     icon: Shield,
-    title: "Quality Assurance",
-    description: "Automated quality control with anomaly detection and compliance monitoring.",
-    features: ["Anomaly detection", "Compliance checks", "Quality metrics"],
+    title: "AI Strategy Consulting",
+    description:
+      "Expert guidance to help you adopt AI with confidence and long-term value.",
+    features: [
+      "System audit & transformation roadmap",
+      "ROI modeling & rollout planning",
+      "GDPR-compliant AI implementation",
+    ],
+    useCase: "We assess your systems and design a phased AI plan tailored to your goals."
   },
+  {
+    icon: Mail,
+    title: "Automated Email Outreach",
+    description:
+      "Personalized email flows that convert leads—without you lifting a finger.",
+    features: [
+      "Smart sequences based on behavior",
+      "Dynamic content & A/B testing",
+      "CRM integration & lead tracking",
+    ],
+    useCase: "Sends personalized emails that adapt to user actions, with smart follow-ups."
+  },
+  {
+    icon: Zap,
+    title: "AI Lead Generation",
+    description:
+      "AI that finds and qualifies leads while your team focuses on closing deals.",
+    features: [
+      "Auto prospecting & data enrichment",
+      "Behavior-based lead scoring",
+      "CRM sync & assignment routing",
+    ],
+    useCase: "Discovers top-fit leads from multiple sources and sends them straight to sales."
+  }
 ]
+
 
 export default function ServicesSection() {
   return (
