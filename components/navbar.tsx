@@ -6,9 +6,9 @@ import { MobileMenu } from "@/components/mobile-menu"
 import { Terminal } from "lucide-react"
 
 const navItems = [
-  { name: "Platform", href: "#about" },
-  { name: "Solutions", href: "#services" },
+  { name: "About", href: "#about" },
   { name: "Process", href: "#how-we-operate" },
+  { name: "Solutions", href: "#services" },
   { name: "Team", href: "#team" },
   { name: "Contact", href: "#contact" },
 ]
@@ -29,9 +29,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-3">
             <div className="relative">
-              <div className="w-8 h-8 bg-black dark:bg-white"></div>
-              <div className="absolute inset-1 bg-white dark:bg-black"></div>
-              <Terminal className="absolute inset-0 w-8 h-8 text-black dark:text-white p-1.5" />
+              <img src="/logo.svg" alt="Mure AI Logo" className="w-8 h-8" />
             </div>
             <span className="text-xl font-display font-bold tracking-tight">Mure AI</span>
           </div>
@@ -54,9 +52,6 @@ export default function Navbar() {
           {/* Right Side Actions */}
           <div className="flex items-center space-x-3">
             <ThemeToggle />
-            <Button className="hidden md:flex bg-black hover:bg-gray-800 dark:bg-white dark:text-black dark:hover:bg-gray-100 text-sm font-medium px-4 py-2 h-9">
-              Get Started
-            </Button>
             <MobileMenu />
           </div>
         </div>
