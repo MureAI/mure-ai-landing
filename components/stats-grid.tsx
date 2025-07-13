@@ -1,3 +1,5 @@
+'use-client'
+
 import { Shield, Zap, Database, Network } from "lucide-react"
 
 const stats = [

@@ -1,3 +1,5 @@
+"use client"
+
 import { Code, CheckCircle } from "lucide-react"
 import { SlideIn, FadeIn } from "./ui/animation-wrappers"
 

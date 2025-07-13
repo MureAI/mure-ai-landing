@@ -1,3 +1,5 @@
+"use client"
+
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Terminal, Database, Cpu, Network, MessageCircle } from "lucide-react"
 import { FadeIn, SlideIn } from "./ui/animation-wrappers"

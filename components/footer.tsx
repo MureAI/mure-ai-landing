@@ -1,3 +1,5 @@
+"use client"
+
 import { Terminal, Linkedin, Twitter } from "lucide-react"
 import { FadeIn } from "./ui/animation-wrappers"
 import Link from 'next/link';

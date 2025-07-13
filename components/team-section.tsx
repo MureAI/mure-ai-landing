@@ -1,3 +1,5 @@
+"use client"
+
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Users, Linkedin, Twitter } from "lucide-react"
 import { FadeIn, StaggerContainer } from "./ui/animation-wrappers"
@@ -6,7 +8,7 @@ const teamMembers = [
   {
     name: "Ahmed Shabban",
     role: "Chief Executive Officer",
-    bio: "Former AI Director at Google. 15+ years in ML and enterprise automation.",
+    bio: "Co-founder of two startups, delivering smart, automation-driven solutions.",
     image: "/ahmed.webp",
     linkedin: "https://linkedin.com/in/ahmedshabban",
   },
@@ -27,7 +29,7 @@ const teamMembers = [
   {
     name: "Udayanto Atmojo",
     role: "VP of Operations",
-    bio: "Former McKinsey consultant. Process optimization specialist.",
+    bio: "Aalto University PhD researcher in business automation.",
     image: "/atmojo.webp",
     linkedin: "https://www.linkedin.com/in/udayanto-dwi-atmojo/",
   },
