@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Activity, Zap, TrendingUp, CheckCircle } from "lucide-react";
+import { FadeIn, ScaleIn } from './ui/animation-wrappers';
 
 const HeroTerminal = () => {
   const [currentStep, setCurrentStep] = useState(0);
@@ -28,6 +29,7 @@ const HeroTerminal = () => {
   }, [currentStep]);
 
   return (
+    <ScaleIn delay={1.0}>
     <div className="max-w-6xl mx-auto relative">
       <div className="bg-gray-50 dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800 overflow-hidden shadow-2xl">
         {/* Terminal Header */}
@@ -111,6 +113,7 @@ const HeroTerminal = () => {
         </div>
       </div>
     </div>
+    </ScaleIn>
   );
 };
 
