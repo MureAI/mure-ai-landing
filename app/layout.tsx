@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "Mure AI",
     images: [
       {
-        url: "https://mureai.com/og-image.png", // Add your actual OG image here
+        url: "/seo_image.webp", // Add your actual OG image here
         width: 1200,
         height: 630,
         alt: "Mure AI - Enterprise Automation",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Mure AI | AI Automation Consulting & Workflow Solutions",
     description: "Streamline your business and stay competitive with Mure AI automation experts.",
-    images: ["https://mureai.com/og-image.png"], // Same image as OG image
+    images: ["/seo_image.webp"], // Same image as OG image
     creator: "@mureai", // optional: your Twitter handle
   },
 }
