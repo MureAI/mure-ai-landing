@@ -10,7 +10,7 @@ const teamMembers = [
     role: "Chief Executive Officer",
     bio: "Co-founder of two startups, delivering smart, automation-driven solutions.",
     image: "/ahmed.webp",
-    linkedin: "https://linkedin.com/in/ahmedshabban",
+    linkedin: "https://www.linkedin.com/in/ahmed-tolbh/",
   },
   {
     name: "Duc Lee",
@@ -21,15 +21,15 @@ const teamMembers = [
   },
   {
     name: "Yunwei Cui",
-    role: "Branding and Sales",
+    role: "Chief of Marketing & Sales",
     bio: "Fullstack developer & artist with 200+ completed creative projects.",
     image: "/yun.webp",
     linkedin: "https://www.linkedin.com/in/yunwei-cui-86174a188/",
   },
   {
     name: "Udayanto Atmojo",
-    role: "VP of Operations",
-    bio: "Aalto University PhD researcher in business automation.",
+    role: "Chief Product Officer",
+    bio: "Aalto University PhD researcher - Specializing in automation & applied AI.",
     image: "/atmojo.webp",
     linkedin: "https://www.linkedin.com/in/udayanto-dwi-atmojo/",
   },
